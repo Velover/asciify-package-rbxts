@@ -1,9 +1,9 @@
 //!native
 //!optimize 2
-import Data from "./data";
+import data from "./data";
 
 const lookup_map = new Map<string, string>();
-Data.split("\n").map((line) => {
+data.split("\n").map((line) => {
 	const [transcription, unicodes_text] = line.split("\t");
 	if (transcription === undefined) return;
 	if (unicodes_text === undefined) return;
