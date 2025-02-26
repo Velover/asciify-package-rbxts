@@ -52,17 +52,24 @@ Test:
 ```
 
 Data taken from `https://github.com/anyascii/anyascii/blob/master/unidecode/unidecode-py.tsv`
+
 original data structure 
+
 `{ [unicode]: ascii_representation }`
+
 aka
+
 `"${unicode}\t${ascii_representation}\"`;
 
 transformed data structure
 `{ [ascii_representation]: unicode[]}`
+
 aka
-`"${ascii_representation}\t${unicode.join(",")}"`
+
+`"${ascii_representation}\t${unicodes.join(",")}"`
 
 result - size 345kb -> 160kb
+
 because there's a lot of unicodes that have the same ascii_representation
 
 
