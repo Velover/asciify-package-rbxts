@@ -51,7 +51,7 @@ Test:
   北京→東京 -> BeiJing-DongJing
 ```
 
-Data taken from `https://github.com/anyascii/anyascii/blob/master/unidecode/unidecode-py.tsv`
+Data taken from [here](https://github.com/anyascii/anyascii/blob/master/unidecode/unidecode-py.tsv)
 
 original data structure 
 
