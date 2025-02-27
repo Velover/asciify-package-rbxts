@@ -91,5 +91,5 @@ because there's a lot of unicodes that have the same ascii_representation
   - 1 Compication if you want to use it on the client
   - 2 Not everybody wants to enable Http requests
   - 3 They not as reliable and as fast as saving the data in module script
-  - 4 If z-lib is only 110kb, the dataset could fit as well because it's slightly bigger
+  - 4 If z-lib is only 110kb, the dataset could fit as well because it's slightly bigger (aka it's not a problem to store the file that big 150kb in studio )
   
