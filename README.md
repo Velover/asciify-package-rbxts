@@ -68,14 +68,14 @@ original data structure
 
 aka
 
-`"${unicode}\t${ascii_representation}\"`;
+`"${unicode}\t${ascii_representation}\n"`;
 
 transformed data structure
 `{ [ascii_representation]: unicode[]}`
 
 aka
 
-`"${ascii_representation}\t${unicodes.join(",")}"`
+`"${ascii_representation}\t${unicodes.join(",")}\n"`
 
 result - size 345kb -> 160kb
 
