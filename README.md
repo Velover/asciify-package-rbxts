@@ -1,13 +1,22 @@
 # ASCIIFY
 Package to convert UTF-8 to ASCII with minimal loss
 
+### [NPM](https://www.npmjs.com/package/@rbxts/asciify)
+
 Example usage
 ```ts
 const str = "Hello and Привет";
 const ascii_str = Asciify(str); //Hello and Privet;
 ```
 
+Installation
+```bash
+#npm
+npm i @rbxts/asciify
 
+#bun
+bun add @rbxts/asciify
+```
 
 Test:
 ```
